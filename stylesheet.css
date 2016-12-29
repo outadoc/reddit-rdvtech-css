@@ -55,7 +55,6 @@ body:not(.search-page) .morelink {top: 390px;}
 
 /* --- End Addon --- */
 
-
 /* --- Addon: Header Logo --- */
 #header {
 	background-image: none;
@@ -69,13 +68,6 @@ body:not(.search-page) .morelink {top: 390px;}
 	width: 136px;
 	margin-top: -10px;
     height: 50px
-}
-
-/* --- End Addon --- */
-
-/* --- Addon: Hide sidebar info box --- */
-.side::before {
-    background-size: cover;
 }
 
 /* --- End Addon --- */
@@ -129,4 +121,9 @@ div.titlebox span.number:after {content: " technophiles";}
     color: red;
     margin-bottom: 30px;
     line-height: 30px;
+}
+
+/* Fix for hi-res sidebar image */
+.side::before {
+    background-size: cover;
 }
