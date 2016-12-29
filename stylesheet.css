@@ -75,7 +75,8 @@ body:not(.search-page) .morelink {top: 390px;}
 
 /* --- Addon: Hide sidebar info box --- */
 .side::before {
-    content: none;
+    background-size: cover;
+    height: 150px;
 }
 
 #search,
@@ -83,11 +84,11 @@ body:not(.search-page) .morelink {top: 390px;}
 .side .titlebox h1.redditname,
 .subscribers,
 .titlebox .fancy-toggle-button {
-    margin-top: -80px;
+    margin-top: -45px;
 }
 
 .side {
-    margin-top: 202px;
+    margin-top: 240px;
 }
 
 /* --- End Addon --- */
