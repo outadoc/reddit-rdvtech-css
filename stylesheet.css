@@ -22,7 +22,7 @@
 
     /* Buttons */
     .morelink, .side .titlebox .md h3 a, .drop-choices a.choice:hover, .submit-page #newlink.submit.content ul.tabmenu.formtab,
-    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background-color: #f38a0d;}
+    .submit_text.enabled.roundfield, body .btn, body button, .content .infobar {background-color: #d50b52;}
 
         .morelink:hover, .side .titlebox .md h3 a:hover, .btn:hover, body button:hover {background-color: #f3b30d;}
         .morelink:active , .side .titlebox .md h3 a:active , .btn:active , body button:active {background-color: #ce4500;}
@@ -38,7 +38,7 @@
 /* --- End Addon --- */
 
 /* --- Addon: Colorize the Subreddit Info Box --- */
-.side .titlebox h1.redditname:before {background-color: #f38a0d;}
+.side .titlebox h1.redditname:before {background-color: #d50b52;}
 .side .titlebox h1.redditname a, .titlebox span.subscribers {color: #fff;}
 
 /* --- End Addon --- */
@@ -59,7 +59,7 @@ body:not(.search-page) .morelink {top: 390px;}
 /* --- Addon: Header Logo --- */
 #header {
 	background-image: none;
-    background-color: #151515;
+    background-color: #d50b52;
 }
 
 #header .pagename a {
