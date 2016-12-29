@@ -141,4 +141,5 @@ div.titlebox span.number:after {content: " technophiles";}
     font-size: 1.1em;
     color: red;
     margin-bottom: 30px;
+    line-height: 30px;
 }
