@@ -59,7 +59,7 @@ body:not(.search-page) .morelink {top: 390px;}
 /* --- Addon: Header Logo --- */
 #header {
 	background-image: none;
-    background-color: #d50b52;
+    background-color: #151515;
 }
 
 #header .pagename a {
@@ -76,19 +76,6 @@ body:not(.search-page) .morelink {top: 390px;}
 /* --- Addon: Hide sidebar info box --- */
 .side::before {
     background-size: cover;
-    height: 150px;
-}
-
-#search,
-.morelink,
-.side .titlebox h1.redditname,
-.subscribers,
-.titlebox .fancy-toggle-button {
-    margin-top: -45px;
-}
-
-.side {
-    margin-top: 240px;
 }
 
 /* --- End Addon --- */
